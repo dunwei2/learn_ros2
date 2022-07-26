@@ -1,0 +1,4 @@
+[console_scripts]
+service_first = learn_service.service_first_server:main
+service_first_client = learn_service.service_first_client:main
+

@@ -1,0 +1,53 @@
+[0.045s] Invoking command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface': /usr/bin/cmake /home/ubuntu/Desktop/workspace/zhao/src/learn_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface
+[0.434s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.434s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.435s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.690s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.786s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.786s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.786s]   learn_interface --arguments-file
+[0.786s]   /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter__arguments__learn_interface.json
+[0.787s]   --output-dir
+[0.787s]   /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface
+[0.787s]   --output-file
+[0.787s]   /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface.idls)
+[0.787s]   returned error code 1:
+[0.787s] 
+[0.788s]   Traceback (most recent call last):
+[0.788s] 
+[0.789s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.789s]       return _run_code(code, main_globals, None,
+[0.789s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.789s]       exec(code, run_globals)
+[0.789s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.789s]       sys.exit(main())
+[0.790s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.790s]       abs_idl_file = convert_to_idl(
+[0.791s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.791s]       return convert_srv_to_idl(
+[0.791s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.792s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.792s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string
+[0.792s]       request_message = parse_message_string(
+[0.793s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.793s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.793s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.793s]       self.base_type = BaseType(
+[0.794s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.794s]       raise InvalidResourceName(
+[0.794s] 
+[0.795s]   rosidl_adapter.parser.InvalidResourceName: 'addTwoInt32s_Request' is an
+[0.795s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.795s] 
+[0.796s] Call Stack (most recent call first):
+[0.796s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.796s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.796s] 
+[0.797s] 
+[0.797s] -- Configuring incomplete, errors occurred!
+[0.797s] See also "/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/CMakeFiles/CMakeOutput.log".
+[0.818s] Invoked command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface' returned '1': /usr/bin/cmake /home/ubuntu/Desktop/workspace/zhao/src/learn_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface

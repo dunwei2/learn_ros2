@@ -1,0 +1,9 @@
+{
+  "package_name": "learn_interface",
+  "non_idl_tuples": [
+    "/home/ubuntu/Desktop/workspace/zhao/src/learn_interface:srv/AddTwoInts.srv",
+    "/home/ubuntu/Desktop/workspace/zhao/src/learn_interface:srv/GetObjectPosition.srv",
+    "/home/ubuntu/Desktop/workspace/zhao/src/learn_interface:msg/ObjectPosition.msg",
+    "/home/ubuntu/Desktop/workspace/zhao/src/learn_interface:action/MoveCircle.action"
+  ]
+}

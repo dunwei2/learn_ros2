@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface': /usr/bin/cmake /home/ubuntu/Desktop/workspace/zhao/src/learn_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface
+Invoked command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface' returned '1': /usr/bin/cmake /home/ubuntu/Desktop/workspace/zhao/src/learn_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface

@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/learn_topic/learn_topic.egg-info
+writing ../../build/learn_topic/learn_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/learn_topic/learn_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/learn_topic/learn_topic.egg-info/entry_points.txt
+writing requirements to ../../build/learn_topic/learn_topic.egg-info/requires.txt
+writing top-level names to ../../build/learn_topic/learn_topic.egg-info/top_level.txt
+writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+reading manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build
+creating /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib
+creating /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic
+copying learn_topic/__init__.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic
+copying learn_topic/topic_hello.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic
+running install
+running install_lib
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic/__init__.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic/topic_hello.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic/topic_hello.py to topic_hello.cpython-38.pyc
+running install_data
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/share/ament_index
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/share/ament_index/resource_index
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/share/ament_index/resource_index/packages
+copying resource/learn_topic -> /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/share/learn_topic
+running install_egg_info
+Copying ../../build/learn_topic/learn_topic.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log'

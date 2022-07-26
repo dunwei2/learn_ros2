@@ -1,0 +1,10 @@
+  File "/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_client.py", line 9
+    from learin_
+               ^
+SyntaxError: invalid syntax
+
+  File "/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_server.py", line 6
+    from learning_interface
+                          ^
+SyntaxError: invalid syntax
+

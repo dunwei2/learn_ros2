@@ -1,0 +1,49 @@
+[4.853s] Invoking command in '/home/ubuntu/Desktop/workspace/dev_ws1/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build install --prefix /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node --record /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/install.log --single-version-externally-managed
+[5.271s] running egg_info
+[5.272s] creating ../../../build/learning_node/learning_node.egg-info
+[5.273s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[5.273s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[5.273s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[5.274s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[5.274s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[5.314s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[5.381s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[5.383s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[5.383s] running build
+[5.384s] running build_py
+[5.385s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build
+[5.385s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib
+[5.385s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node
+[5.385s] copying learning_node/__init__.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node
+[5.385s] copying learning_node/node_helloworld.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node
+[5.386s] copying learning_node/node_helloworld_class.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node
+[5.386s] copying learning_node/node_object.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node
+[5.386s] copying learning_node/node_object_webcam.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node
+[5.386s] running install
+[5.387s] running install_lib
+[5.389s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node
+[5.390s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node/__init__.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node
+[5.392s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node/node_helloworld.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node
+[5.394s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node/node_helloworld_class.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node
+[5.394s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node/node_object.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node
+[5.395s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build/lib/learning_node/node_object_webcam.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node
+[5.395s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node/__init__.py to __init__.cpython-38.pyc
+[5.399s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node/node_helloworld.py to node_helloworld.cpython-38.pyc
+[5.399s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node/node_helloworld_class.py to node_helloworld_class.cpython-38.pyc
+[5.400s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node/node_object.py to node_object.cpython-38.pyc
+[5.402s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node/node_object_webcam.py to node_object_webcam.cpython-38.pyc
+[5.402s] running install_data
+[5.404s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/share/ament_index
+[5.407s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/share/ament_index/resource_index
+[5.407s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/share/ament_index/resource_index/packages
+[5.408s] copying resource/learning_node -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/share/ament_index/resource_index/packages
+[5.408s] copying package.xml -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/share/learning_node
+[5.408s] running install_egg_info
+[5.409s] Copying ../../../build/learning_node/learning_node.egg-info to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages/learning_node-0.0.0-py3.8.egg-info
+[5.409s] running install_scripts
+[5.436s] Installing node_helloworld script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/learning_node
+[5.437s] Installing node_helloworld_class script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/learning_node
+[5.437s] Installing node_object script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/learning_node
+[5.438s] Installing node_object_webcam script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/learning_node
+[5.439s] writing list of installed files to '/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/install.log'
+[5.506s] Invoked command in '/home/ubuntu/Desktop/workspace/dev_ws1/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/build install --prefix /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_node --record /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_node/install.log --single-version-externally-managed

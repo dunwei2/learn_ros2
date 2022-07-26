@@ -1,0 +1,443 @@
+[0.000000] (-) TimerEvent: {}
+[0.000734] (learn_interface) JobQueued: {'identifier': 'learn_interface', 'dependencies': OrderedDict()}
+[0.001257] (learn_service) JobQueued: {'identifier': 'learn_service', 'dependencies': OrderedDict()}
+[0.001364] (learn_topic) JobQueued: {'identifier': 'learn_topic', 'dependencies': OrderedDict()}
+[0.001450] (learn_interface) JobStarted: {'identifier': 'learn_interface'}
+[0.016148] (learn_service) JobStarted: {'identifier': 'learn_service'}
+[0.032837] (learn_topic) JobStarted: {'identifier': 'learn_topic'}
+[0.045173] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'cmake'}
+[0.045965] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/workspace/zhao/src/learn_interface', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '0836e6faf905'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099447] (-) TimerEvent: {}
+[0.200020] (-) TimerEvent: {}
+[0.300406] (-) TimerEvent: {}
+[0.400843] (-) TimerEvent: {}
+[0.406776] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.408871] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.409189] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.409409] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.409546] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.409682] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.501092] (-) TimerEvent: {}
+[0.601771] (-) TimerEvent: {}
+[0.622841] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701836] (-) TimerEvent: {}
+[0.723643] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.802067] (-) TimerEvent: {}
+[0.902804] (-) TimerEvent: {}
+[1.003383] (-) TimerEvent: {}
+[1.103909] (-) TimerEvent: {}
+[1.157453] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.204028] (-) TimerEvent: {}
+[1.304848] (-) TimerEvent: {}
+[1.380003] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.404969] (-) TimerEvent: {}
+[1.459203] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.505131] (-) TimerEvent: {}
+[1.508881] (learn_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_topic', 'build', '--build-base', '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build', 'install', '--prefix', '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic', '--record', '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/src/learn_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '0836e6faf905', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic', 'PYTHONPATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.520516] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.523181] (learn_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.562113] (learn_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_service', 'build', '--build-base', '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/build', 'install', '--prefix', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', '--record', '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/src/learn_service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '0836e6faf905', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/Desktop/workspace/zhao/build/learn_service', 'PYTHONPATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.605236] (-) TimerEvent: {}
+[1.700321] (learn_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.700935] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.701122] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.701304] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.705359] (-) TimerEvent: {}
+[1.773504] (learn_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.805465] (-) TimerEvent: {}
+[1.905988] (-) TimerEvent: {}
+[1.933913] (learn_topic) StdoutLine: {'line': b'running egg_info\n'}
+[1.935603] (learn_topic) StdoutLine: {'line': b'writing ../../build/learn_topic/learn_topic.egg-info/PKG-INFO\n'}
+[1.936939] (learn_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_topic/learn_topic.egg-info/dependency_links.txt\n'}
+[1.937426] (learn_topic) StdoutLine: {'line': b'writing entry points to ../../build/learn_topic/learn_topic.egg-info/entry_points.txt\n'}
+[1.937824] (learn_topic) StdoutLine: {'line': b'writing requirements to ../../build/learn_topic/learn_topic.egg-info/requires.txt\n'}
+[1.938793] (learn_topic) StdoutLine: {'line': b'writing top-level names to ../../build/learn_topic/learn_topic.egg-info/top_level.txt\n'}
+[1.977800] (learn_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.982318] (learn_service) StdoutLine: {'line': b'running egg_info\n'}
+[1.983670] (learn_service) StdoutLine: {'line': b'writing ../../build/learn_service/learn_service.egg-info/PKG-INFO\n'}
+[1.984235] (learn_service) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_service/learn_service.egg-info/dependency_links.txt\n'}
+[1.984570] (learn_service) StdoutLine: {'line': b'writing entry points to ../../build/learn_service/learn_service.egg-info/entry_points.txt\n'}
+[1.984924] (learn_service) StdoutLine: {'line': b'writing requirements to ../../build/learn_service/learn_service.egg-info/requires.txt\n'}
+[1.985107] (learn_service) StdoutLine: {'line': b'writing top-level names to ../../build/learn_service/learn_service.egg-info/top_level.txt\n'}
+[2.006100] (-) TimerEvent: {}
+[2.066651] (learn_service) StdoutLine: {'line': b"reading manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'\n"}
+[2.068558] (learn_service) StdoutLine: {'line': b"writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'\n"}
+[2.069022] (learn_service) StdoutLine: {'line': b'running build\n'}
+[2.069285] (learn_service) StdoutLine: {'line': b'running build_py\n'}
+[2.069449] (learn_service) StdoutLine: {'line': b'copying learn_service/service_first_client.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service\n'}
+[2.069841] (learn_service) StdoutLine: {'line': b'copying learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service\n'}
+[2.070143] (learn_service) StdoutLine: {'line': b'running install\n'}
+[2.071764] (learn_service) StdoutLine: {'line': b'running install_lib\n'}
+[2.072349] (learn_topic) StdoutLine: {'line': b"reading manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'\n"}
+[2.073809] (learn_service) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_client.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service\n'}
+[2.074325] (learn_service) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service\n'}
+[2.074592] (learn_topic) StdoutLine: {'line': b"writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'\n"}
+[2.074889] (learn_topic) StdoutLine: {'line': b'running build\n'}
+[2.075049] (learn_topic) StdoutLine: {'line': b'running build_py\n'}
+[2.075610] (learn_topic) StdoutLine: {'line': b'running install\n'}
+[2.076041] (learn_service) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_client.py to service_first_client.cpython-38.pyc\n'}
+[2.079071] (learn_topic) StdoutLine: {'line': b'running install_lib\n'}
+[2.079844] (learn_service) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_server.py to service_first_server.cpython-38.pyc\n'}
+[2.080764] (learn_service) StdoutLine: {'line': b'running install_data\n'}
+[2.081896] (learn_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.084840] (learn_service) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.086389] (learn_service) StdoutLine: {'line': b'Copying ../../build/learn_service/learn_service.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info\n'}
+[2.089037] (learn_service) StdoutLine: {'line': b'running install_scripts\n'}
+[2.106212] (-) TimerEvent: {}
+[2.109217] (learn_topic) StdoutLine: {'line': b'running install_data\n'}
+[2.115883] (learn_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.120537] (learn_topic) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.121848] (learn_topic) StdoutLine: {'line': b'Copying ../../build/learn_topic/learn_topic.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info\n'}
+[2.126044] (learn_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[2.126441] (learn_service) StdoutLine: {'line': b'Installing service_first script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service\n'}
+[2.127352] (learn_service) StdoutLine: {'line': b'Installing service_img script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service\n'}
+[2.128146] (learn_service) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log'\n"}
+[2.128967] (learn_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.136227] (learn_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.138693] (learn_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.160490] (learn_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.172314] (learn_topic) StdoutLine: {'line': b'Installing topic_cam_pub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[2.173330] (learn_topic) StdoutLine: {'line': b'Installing topic_cam_sub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[2.174168] (learn_topic) StdoutLine: {'line': b'Installing topic_hello script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[2.175927] (learn_topic) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log'\n"}
+[2.204042] (learn_service) CommandEnded: {'returncode': 0}
+[2.206411] (-) TimerEvent: {}
+[2.259487] (learn_service) JobEnded: {'identifier': 'learn_service', 'rc': 0}
+[2.263194] (learn_topic) CommandEnded: {'returncode': 0}
+[2.279990] (learn_topic) JobEnded: {'identifier': 'learn_topic', 'rc': 0}
+[2.306607] (-) TimerEvent: {}
+[2.407209] (-) TimerEvent: {}
+[2.507696] (-) TimerEvent: {}
+[2.524472] (learn_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.537008] (learn_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/workspace/zhao/build/learn_interface\n'}
+[2.550908] (learn_interface) CommandEnded: {'returncode': 0}
+[2.555939] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'build'}
+[2.556051] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '0836e6faf905'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.607839] (-) TimerEvent: {}
+[2.692274] (learn_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.694610] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__cpp\x1b[0m\n'}
+[2.707968] (-) TimerEvent: {}
+[2.716494] (learn_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.808075] (-) TimerEvent: {}
+[2.908624] (-) TimerEvent: {}
+[3.009214] (-) TimerEvent: {}
+[3.109794] (-) TimerEvent: {}
+[3.210268] (-) TimerEvent: {}
+[3.310724] (-) TimerEvent: {}
+[3.411210] (-) TimerEvent: {}
+[3.511911] (-) TimerEvent: {}
+[3.589861] (learn_interface) StdoutLine: {'line': b'[  5%] Built target learn_interface__cpp\n'}
+[3.612051] (-) TimerEvent: {}
+[3.619776] (learn_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.629884] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_generator_c\x1b[0m\n'}
+[3.637133] (learn_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.649789] (learn_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.712193] (-) TimerEvent: {}
+[3.794200] (learn_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/srv/detail/add_two_int32s__functions.c.o\x1b[0m\n'}
+[3.812317] (-) TimerEvent: {}
+[3.912926] (-) TimerEvent: {}
+[4.013629] (-) TimerEvent: {}
+[4.114209] (-) TimerEvent: {}
+[4.214833] (-) TimerEvent: {}
+[4.315345] (-) TimerEvent: {}
+[4.384153] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.415787] (-) TimerEvent: {}
+[4.516321] (-) TimerEvent: {}
+[4.558181] (learn_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/srv/add_two_int32s__type_support.cpp.o\x1b[0m\n'}
+[4.616490] (-) TimerEvent: {}
+[4.660514] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.687809] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.716637] (-) TimerEvent: {}
+[4.744121] (learn_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/srv/detail/add_two_int32s__type_support.cpp.o\x1b[0m\n'}
+[4.816814] (-) TimerEvent: {}
+[4.917491] (-) TimerEvent: {}
+[5.017960] (-) TimerEvent: {}
+[5.053099] (learn_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/srv/detail/dds_fastrtps/add_two_int32s__type_support.cpp.o\x1b[0m\n'}
+[5.118072] (-) TimerEvent: {}
+[5.218527] (-) TimerEvent: {}
+[5.319078] (-) TimerEvent: {}
+[5.419534] (-) TimerEvent: {}
+[5.519994] (-) TimerEvent: {}
+[5.620588] (-) TimerEvent: {}
+[5.721303] (-) TimerEvent: {}
+[5.821875] (-) TimerEvent: {}
+[5.922363] (-) TimerEvent: {}
+[6.022959] (-) TimerEvent: {}
+[6.123578] (-) TimerEvent: {}
+[6.224143] (-) TimerEvent: {}
+[6.324784] (-) TimerEvent: {}
+[6.425403] (-) TimerEvent: {}
+[6.525951] (-) TimerEvent: {}
+[6.626594] (-) TimerEvent: {}
+[6.727198] (-) TimerEvent: {}
+[6.820995] (learn_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/srv/detail/get_object_position__functions.c.o\x1b[0m\n'}
+[6.827346] (-) TimerEvent: {}
+[6.883101] (learn_interface) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library liblearn_interface__rosidl_generator_c.so\x1b[0m\n'}
+[6.927475] (-) TimerEvent: {}
+[7.028172] (-) TimerEvent: {}
+[7.128822] (-) TimerEvent: {}
+[7.229251] (-) TimerEvent: {}
+[7.329696] (-) TimerEvent: {}
+[7.430137] (-) TimerEvent: {}
+[7.530576] (-) TimerEvent: {}
+[7.631078] (-) TimerEvent: {}
+[7.637626] (learn_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/srv/detail/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[7.658238] (learn_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/srv/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[7.731272] (-) TimerEvent: {}
+[7.831801] (-) TimerEvent: {}
+[7.864513] (learn_interface) StdoutLine: {'line': b'[ 33%] Built target learn_interface__rosidl_generator_c\n'}
+[7.881578] (learn_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/srv/detail/dds_fastrtps/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[7.931941] (-) TimerEvent: {}
+[8.032815] (-) TimerEvent: {}
+[8.133402] (-) TimerEvent: {}
+[8.150144] (learn_interface) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.170465] (learn_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.233605] (-) TimerEvent: {}
+[8.298563] (learn_interface) StdoutLine: {'line': b'[ 41%] Built target learn_interface__rosidl_typesupport_introspection_cpp\n'}
+[8.301049] (learn_interface) StdoutLine: {'line': b'[ 41%] Built target learn_interface__rosidl_typesupport_cpp\n'}
+[8.320452] (learn_interface) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.324531] (learn_interface) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.333732] (-) TimerEvent: {}
+[8.434340] (-) TimerEvent: {}
+[8.535068] (-) TimerEvent: {}
+[8.635937] (-) TimerEvent: {}
+[8.736640] (-) TimerEvent: {}
+[8.837387] (-) TimerEvent: {}
+[8.938080] (-) TimerEvent: {}
+[8.966715] (learn_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.038186] (-) TimerEvent: {}
+[9.138862] (-) TimerEvent: {}
+[9.141514] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_c\x1b[0m\n'}
+[9.166857] (learn_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/srv/add_two_int32s__type_support.cpp.o\x1b[0m\n'}
+[9.183546] (learn_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/srv/get_object_position__type_support.cpp.o\x1b[0m\n'}
+[9.239007] (-) TimerEvent: {}
+[9.255198] (learn_interface) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.269150] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.309497] (learn_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/srv/detail/add_two_int32s__type_support.c.o\x1b[0m\n'}
+[9.324559] (learn_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/srv/detail/get_object_position__type_support.c.o\x1b[0m\n'}
+[9.339180] (-) TimerEvent: {}
+[9.396479] (learn_interface) StdoutLine: {'line': b'[ 61%] Built target learn_interface__rosidl_typesupport_c\n'}
+[9.430002] (learn_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library liblearn_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.439316] (-) TimerEvent: {}
+[9.494900] (learn_interface) StdoutLine: {'line': b'[ 64%] Built target learn_interface__rosidl_typesupport_introspection_c\n'}
+[9.499855] (learn_interface) StdoutLine: {'line': b'[ 64%] Built target learn_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.515921] (learn_interface) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.539527] (-) TimerEvent: {}
+[9.640865] (-) TimerEvent: {}
+[9.741423] (-) TimerEvent: {}
+[9.842038] (-) TimerEvent: {}
+[9.942660] (-) TimerEvent: {}
+[10.043265] (-) TimerEvent: {}
+[10.143742] (-) TimerEvent: {}
+[10.244225] (-) TimerEvent: {}
+[10.285882] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.344379] (-) TimerEvent: {}
+[10.357317] (learn_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/srv/detail/add_two_int32s__type_support_c.cpp.o\x1b[0m\n'}
+[10.357737] (learn_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/srv/detail/get_object_position__type_support_c.cpp.o\x1b[0m\n'}
+[10.444530] (-) TimerEvent: {}
+[10.545089] (-) TimerEvent: {}
+[10.645535] (-) TimerEvent: {}
+[10.745993] (-) TimerEvent: {}
+[10.846436] (-) TimerEvent: {}
+[10.946955] (-) TimerEvent: {}
+[10.980424] (learn_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.047107] (-) TimerEvent: {}
+[11.147611] (-) TimerEvent: {}
+[11.195013] (learn_interface) StdoutLine: {'line': b'[ 74%] Built target learn_interface__rosidl_typesupport_fastrtps_c\n'}
+[11.212199] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface\x1b[0m\n'}
+[11.228043] (learn_interface) StdoutLine: {'line': b'[ 74%] Built target learn_interface\n'}
+[11.242380] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__py\x1b[0m\n'}
+[11.247780] (-) TimerEvent: {}
+[11.257826] (learn_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.347918] (-) TimerEvent: {}
+[11.448497] (-) TimerEvent: {}
+[11.549102] (-) TimerEvent: {}
+[11.649624] (-) TimerEvent: {}
+[11.750101] (-) TimerEvent: {}
+[11.850663] (-) TimerEvent: {}
+[11.951201] (-) TimerEvent: {}
+[12.051888] (-) TimerEvent: {}
+[12.152504] (-) TimerEvent: {}
+[12.253093] (-) TimerEvent: {}
+[12.353873] (-) TimerEvent: {}
+[12.454585] (-) TimerEvent: {}
+[12.555198] (-) TimerEvent: {}
+[12.655798] (-) TimerEvent: {}
+[12.756388] (-) TimerEvent: {}
+[12.857048] (-) TimerEvent: {}
+[12.919333] (learn_interface) StdoutLine: {'line': b'[ 76%] Built target learn_interface__py\n'}
+[12.933737] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__python\x1b[0m\n'}
+[12.957271] (-) TimerEvent: {}
+[13.057813] (-) TimerEvent: {}
+[13.158249] (-) TimerEvent: {}
+[13.159677] (learn_interface) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/learn_interface__python.dir/rosidl_generator_py/learn_interface/srv/_add_two_int32s_s.c.o\x1b[0m\n'}
+[13.161529] (learn_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/learn_interface__python.dir/rosidl_generator_py/learn_interface/srv/_get_object_position_s.c.o\x1b[0m\n'}
+[13.258485] (-) TimerEvent: {}
+[13.400620] (-) TimerEvent: {}
+[13.501142] (-) TimerEvent: {}
+[13.601834] (-) TimerEvent: {}
+[13.702391] (-) TimerEvent: {}
+[13.803004] (-) TimerEvent: {}
+[13.844679] (learn_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/liblearn_interface__python.so\x1b[0m\n'}
+[13.903148] (-) TimerEvent: {}
+[13.940783] (learn_interface) StdoutLine: {'line': b'[ 84%] Built target learn_interface__python\n'}
+[13.957902] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.958617] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.960747] (learn_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.995176] (learn_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.003256] (learn_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.003629] (-) TimerEvent: {}
+[14.008812] (learn_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.103810] (-) TimerEvent: {}
+[14.179685] (learn_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.191827] (learn_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.198327] (learn_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.203972] (-) TimerEvent: {}
+[14.248613] (learn_interface) StdoutLine: {'line': b'[100%] Built target learn_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[14.255177] (learn_interface) StdoutLine: {'line': b'[100%] Built target learn_interface__rosidl_typesupport_c__pyext\n'}
+[14.304088] (-) TimerEvent: {}
+[14.315463] (learn_interface) StdoutLine: {'line': b'[100%] Built target learn_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.335553] (learn_interface) CommandEnded: {'returncode': 0}
+[14.404232] (-) TimerEvent: {}
+[14.408405] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'install'}
+[14.423394] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '0836e6faf905'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[14.441987] (learn_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.442617] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/rosidl_interfaces/learn_interface\n'}
+[14.442886] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface\n'}
+[14.443209] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg\n'}
+[14.443420] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.443573] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv\n'}
+[14.443733] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/add_two_int32s.h\n'}
+[14.443944] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail\n'}
+[14.444126] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__functions.c\n'}
+[14.444311] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__functions.h\n'}
+[14.444479] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__struct.h\n'}
+[14.444645] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__type_support.h\n'}
+[14.444811] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__functions.c\n'}
+[14.444993] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__functions.h\n'}
+[14.445150] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__struct.h\n'}
+[14.445329] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__type_support.h\n'}
+[14.445501] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/get_object_position.h\n'}
+[14.446433] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/library_path.sh\n'}
+[14.446748] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/library_path.dsv\n'}
+[14.446963] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_generator_c.so\n'}
+[14.468793] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_generator_c.so" to ""\n'}
+[14.469307] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface\n'}
+[14.469580] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg\n'}
+[14.469998] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.470458] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv\n'}
+[14.470961] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail\n'}
+[14.471278] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_fastrtps_c.h\n'}
+[14.471980] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_fastrtps_c.h\n'}
+[14.472608] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[14.473068] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.473534] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface\n'}
+[14.473836] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg\n'}
+[14.474121] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.474574] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv\n'}
+[14.475091] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail\n'}
+[14.475608] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.475980] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/dds_fastrtps\n'}
+[14.476436] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.476835] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.477235] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.477646] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface\n'}
+[14.478323] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg\n'}
+[14.479997] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.480609] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv\n'}
+[14.480983] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail\n'}
+[14.481390] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_introspection_c.h\n'}
+[14.481645] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__type_support.c\n'}
+[14.481885] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_introspection_c.h\n'}
+[14.482180] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__type_support.c\n'}
+[14.482542] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_c.so\n'}
+[14.482879] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.483013] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_c.so\n'}
+[14.483187] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_c.so" to ""\n'}
+[14.483315] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface\n'}
+[14.483441] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv\n'}
+[14.483570] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/add_two_int32s.hpp\n'}
+[14.483720] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail\n'}
+[14.483892] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__builder.hpp\n'}
+[14.484107] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__struct.hpp\n'}
+[14.484313] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__traits.hpp\n'}
+[14.484522] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__builder.hpp\n'}
+[14.484731] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__struct.hpp\n'}
+[14.484922] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__traits.hpp\n'}
+[14.485182] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/get_object_position.hpp\n'}
+[14.485470] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface\n'}
+[14.485662] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv\n'}
+[14.485868] (learn_interface) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail\n'}
+[14.486063] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.486254] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__type_support.cpp\n'}
+[14.486449] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.486640] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__type_support.cpp\n'}
+[14.486869] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[14.487071] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.487271] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_cpp.so\n'}
+[14.487473] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[14.487693] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/pythonpath.sh\n'}
+[14.487918] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/pythonpath.dsv\n'}
+[14.488131] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/__init__.py\n'}
+[14.504506] (-) TimerEvent: {}
+[14.542014] (learn_interface) StdoutLine: {'line': b"Compiling '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/__init__.py'...\n"}
+[14.551543] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv\n'}
+[14.552082] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_add_two_int32s.py\n'}
+[14.552409] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_add_two_int32s_s.c\n'}
+[14.552728] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_get_object_position.py\n'}
+[14.553049] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_get_object_position_s.c\n'}
+[14.553296] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/__init__.py\n'}
+[14.553619] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.590124] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.590479] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.592577] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.592963] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.594731] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.595079] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__python.so\n'}
+[14.596386] (learn_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__python.so" to ""\n'}
+[14.596735] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInt32s.idl\n'}
+[14.597087] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition.idl\n'}
+[14.597430] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInt32s.srv\n'}
+[14.597799] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInt32s_Request.msg\n'}
+[14.598200] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInt32s_Response.msg\n'}
+[14.598601] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition.srv\n'}
+[14.598937] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition_Request.msg\n'}
+[14.599225] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition_Response.msg\n'}
+[14.599574] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/package_run_dependencies/learn_interface\n'}
+[14.599927] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/parent_prefix_path/learn_interface\n'}
+[14.600227] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/ament_prefix_path.sh\n'}
+[14.600513] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/ament_prefix_path.dsv\n'}
+[14.600811] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/path.sh\n'}
+[14.601109] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/path.dsv\n'}
+[14.601401] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.bash\n'}
+[14.601685] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.sh\n'}
+[14.601990] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.zsh\n'}
+[14.602485] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.dsv\n'}
+[14.602847] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/package.dsv\n'}
+[14.603182] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/packages/learn_interface\n'}
+[14.603547] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_generator_cExport.cmake\n'}
+[14.603898] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.604264] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.604630] (-) TimerEvent: {}
+[14.604879] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.605161] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cExport.cmake\n'}
+[14.605405] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.605632] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_generator_cppExport.cmake\n'}
+[14.605908] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.606137] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.606488] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cppExport.cmake\n'}
+[14.606779] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.607052] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[14.607299] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.607550] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.607815] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.608087] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.608333] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.608551] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.608813] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interfaceConfig.cmake\n'}
+[14.609029] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interfaceConfig-version.cmake\n'}
+[14.609247] (learn_interface) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/package.xml\n'}
+[14.611052] (learn_interface) CommandEnded: {'returncode': 0}
+[14.704835] (-) TimerEvent: {}
+[14.738552] (learn_interface) JobEnded: {'identifier': 'learn_interface', 'rc': 0}
+[14.739978] (-) EventReactorShutdown: {}

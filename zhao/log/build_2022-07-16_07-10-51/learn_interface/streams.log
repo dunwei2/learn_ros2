@@ -1,0 +1,282 @@
+[0.046s] Invoking command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/workspace/zhao/build/learn_interface -- -j4 -l4
+[0.477s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.479s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.479s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.538s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.549s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.889s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.308s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.584s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.587s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.684s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.685s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.685s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.724s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.747s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.754s] -- Added test 'lint_cmake' to check CMake code style
+[1.758s] -- Added test 'xmllint' to check XML markup files
+[1.781s] -- Configuring done
+[1.983s] -- Generating done
+[1.993s] -- Build files have been written to: /home/ubuntu/Desktop/workspace/zhao/build/learn_interface
+[2.074s] [35m[1mScanning dependencies of target learn_interface__cpp[0m
+[2.101s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.101s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.407s] [  4%] Built target learn_interface__cpp
+[3.431s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.434s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.467s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.728s] [35m[1mScanning dependencies of target learn_interface__rosidl_generator_c[0m
+[3.801s] [ 12%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/srv/detail/add_two_ints__functions.c.o[0m
+[3.964s] [ 14%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/srv/detail/get_object_position__functions.c.o[0m
+[4.224s] [ 17%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_generator_c.dir/rosidl_generator_c/learn_interface/msg/detail/object_position__functions.c.o[0m
+[4.393s] [ 19%] [32m[1mLinking C shared library liblearn_interface__rosidl_generator_c.so[0m
+[4.547s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_introspection_cpp[0m
+[4.562s] [ 19%] Built target learn_interface__rosidl_generator_c
+[4.590s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_cpp[0m
+[4.600s] [ 21%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/srv/detail/add_two_ints__type_support.cpp.o[0m
+[4.605s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.681s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/srv/add_two_ints__type_support.cpp.o[0m
+[5.029s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_fastrtps_cpp[0m
+[5.092s] [ 27%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[5.233s] [ 29%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/srv/detail/get_object_position__type_support.cpp.o[0m
+[5.522s] [ 31%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/srv/get_object_position__type_support.cpp.o[0m
+[5.592s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_c[0m
+[5.672s] [ 34%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/srv/add_two_ints__type_support.cpp.o[0m
+[5.793s] [ 36%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/srv/get_object_position__type_support.cpp.o[0m
+[5.909s] [ 38%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/learn_interface/msg/object_position__type_support.cpp.o[0m
+[6.014s] [ 40%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/learn_interface/msg/detail/object_position__type_support.cpp.o[0m
+[6.060s] [ 42%] [32m[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_c.so[0m
+[6.222s] [ 44%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/srv/detail/dds_fastrtps/get_object_position__type_support.cpp.o[0m
+[6.248s] [ 44%] Built target learn_interface__rosidl_typesupport_c
+[6.266s] [ 46%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/learn_interface/msg/object_position__type_support.cpp.o[0m
+[6.286s] [ 48%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/learn_interface/msg/detail/dds_fastrtps/object_position__type_support.cpp.o[0m
+[6.839s] [ 51%] [32m[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_introspection_cpp.so[0m
+[6.909s] [ 53%] [32m[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_cpp.so[0m
+[7.013s] [ 53%] Built target learn_interface__rosidl_typesupport_introspection_cpp
+[7.040s] [ 53%] Built target learn_interface__rosidl_typesupport_cpp
+[7.069s] [ 55%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.631s] [ 57%] [32m[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.959s] [ 57%] Built target learn_interface__rosidl_typesupport_fastrtps_cpp
+[7.985s] [ 59%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.060s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_introspection_c[0m
+[8.087s] [ 61%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/srv/detail/add_two_ints__type_support.c.o[0m
+[8.090s] [ 63%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/srv/detail/get_object_position__type_support.c.o[0m
+[8.103s] [ 65%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/learn_interface/msg/detail/object_position__type_support.c.o[0m
+[8.197s] [ 68%] [32m[1mLinking C shared library liblearn_interface__rosidl_typesupport_introspection_c.so[0m
+[8.267s] [ 68%] Built target learn_interface__rosidl_typesupport_introspection_c
+[8.829s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_fastrtps_c[0m
+[8.864s] [ 70%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[8.867s] [ 72%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/msg/detail/object_position__type_support_c.cpp.o[0m
+[8.869s] [ 74%] [32mBuilding CXX object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/learn_interface/srv/detail/get_object_position__type_support_c.cpp.o[0m
+[9.541s] [ 76%] [32m[1mLinking CXX shared library liblearn_interface__rosidl_typesupport_fastrtps_c.so[0m
+[9.730s] [ 76%] Built target learn_interface__rosidl_typesupport_fastrtps_c
+[9.760s] [ 76%] Built target learn_interface
+[9.776s] [35m[1mScanning dependencies of target learn_interface__py[0m
+[9.793s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.274s] [ 78%] Built target learn_interface__py
+[11.293s] [35m[1mScanning dependencies of target learn_interface__python[0m
+[11.339s] [ 80%] [32mBuilding C object CMakeFiles/learn_interface__python.dir/rosidl_generator_py/learn_interface/srv/_get_object_position_s.c.o[0m
+[11.342s] [ 82%] [32mBuilding C object CMakeFiles/learn_interface__python.dir/rosidl_generator_py/learn_interface/srv/_add_two_ints_s.c.o[0m
+[11.343s] [ 85%] [32mBuilding C object CMakeFiles/learn_interface__python.dir/rosidl_generator_py/learn_interface/msg/_object_position_s.c.o[0m
+[11.545s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/learn_interface/liblearn_interface__python.so[0m
+[11.618s] [ 87%] Built target learn_interface__python
+[11.639s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_c__pyext[0m
+[11.639s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.640s] [35m[1mScanning dependencies of target learn_interface__rosidl_typesupport_introspection_c__pyext[0m
+[11.684s] [ 89%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[11.687s] [ 91%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.688s] [ 93%] [32mBuilding C object CMakeFiles/learn_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/learn_interface/_learn_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.870s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.892s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.895s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.937s] [100%] Built target learn_interface__rosidl_typesupport_c__pyext
+[11.967s] [100%] Built target learn_interface__rosidl_typesupport_introspection_c__pyext
+[12.020s] [100%] Built target learn_interface__rosidl_typesupport_fastrtps_c__pyext
+[12.039s] Invoked command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/workspace/zhao/build/learn_interface -- -j4 -l4
+[12.187s] Invoking command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/workspace/zhao/build/learn_interface
+[12.205s] -- Install configuration: ""
+[12.205s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/rosidl_interfaces/learn_interface
+[12.206s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface
+[12.206s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg
+[12.207s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_generator_c__visibility_control.h
+[12.207s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/object_position.h
+[12.208s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail
+[12.208s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__functions.c
+[12.208s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__functions.h
+[12.231s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__struct.h
+[12.231s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__type_support.h
+[12.232s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv
+[12.232s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/add_two_int32s.h
+[12.232s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail
+[12.232s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__functions.c
+[12.233s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__functions.h
+[12.233s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__struct.h
+[12.233s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__type_support.h
+[12.233s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__functions.c
+[12.233s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__functions.h
+[12.234s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__struct.h
+[12.234s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__type_support.h
+[12.235s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__functions.c
+[12.235s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__functions.h
+[12.236s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__struct.h
+[12.236s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__type_support.h
+[12.236s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/get_object_position.h
+[12.237s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/add_two_ints.h
+[12.238s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/library_path.sh
+[12.238s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/library_path.dsv
+[12.239s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_generator_c.so
+[12.242s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_generator_c.so" to ""
+[12.242s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface
+[12.242s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg
+[12.245s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.245s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail
+[12.245s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__rosidl_typesupport_fastrtps_c.h
+[12.246s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv
+[12.247s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail
+[12.248s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_fastrtps_c.h
+[12.250s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_fastrtps_c.h
+[12.251s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[12.251s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_c.so
+[12.251s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[12.252s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface
+[12.252s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg
+[12.253s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.253s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail
+[12.253s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__rosidl_typesupport_fastrtps_cpp.hpp
+[12.254s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/dds_fastrtps
+[12.254s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv
+[12.254s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail
+[12.254s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_fastrtps_cpp.hpp
+[12.255s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/dds_fastrtps
+[12.255s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_fastrtps_cpp.hpp
+[12.255s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[12.256s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_cpp.so
+[12.256s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.256s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface
+[12.257s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg
+[12.257s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.257s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail
+[12.258s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__rosidl_typesupport_introspection_c.h
+[12.258s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__type_support.c
+[12.259s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv
+[12.259s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail
+[12.261s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_introspection_c.h
+[12.261s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__type_support.c
+[12.261s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_introspection_c.h
+[12.262s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__type_support.c
+[12.262s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[12.263s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__type_support.c
+[12.263s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_c.so
+[12.264s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_c.so" to ""
+[12.265s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_c.so
+[12.266s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_c.so" to ""
+[12.266s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface
+[12.267s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv
+[12.267s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/add_two_int32s.hpp
+[12.268s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail
+[12.269s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__builder.hpp
+[12.270s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__struct.hpp
+[12.271s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__traits.hpp
+[12.271s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__builder.hpp
+[12.272s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__struct.hpp
+[12.272s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__traits.hpp
+[12.273s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__builder.hpp
+[12.274s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__struct.hpp
+[12.274s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__traits.hpp
+[12.274s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/get_object_position.hpp
+[12.275s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/add_two_ints.hpp
+[12.275s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg
+[12.276s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/object_position.hpp
+[12.276s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail
+[12.276s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__builder.hpp
+[12.277s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__struct.hpp
+[12.277s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__traits.hpp
+[12.278s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface
+[12.278s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv
+[12.278s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail
+[12.278s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__rosidl_typesupport_introspection_cpp.hpp
+[12.279s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_int32s__type_support.cpp
+[12.279s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__rosidl_typesupport_introspection_cpp.hpp
+[12.279s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/get_object_position__type_support.cpp
+[12.279s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[12.280s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/srv/detail/add_two_ints__type_support.cpp
+[12.281s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg
+[12.281s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail
+[12.281s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__rosidl_typesupport_introspection_cpp.hpp
+[12.282s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/include/learn_interface/msg/detail/object_position__type_support.cpp
+[12.283s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_cpp.so
+[12.285s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[12.286s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_cpp.so
+[12.288s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__rosidl_typesupport_cpp.so" to ""
+[12.288s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/pythonpath.sh
+[12.289s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/pythonpath.dsv
+[12.290s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/__init__.py
+[12.350s] Compiling '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/__init__.py'...
+[12.360s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv
+[12.361s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_add_two_int32s.py
+[12.361s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_add_two_int32s_s.c
+[12.361s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_get_object_position.py
+[12.361s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_get_object_position_s.c
+[12.362s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/__init__.py
+[12.362s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_add_two_ints.py
+[12.362s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/srv/_add_two_ints_s.c
+[12.362s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/msg
+[12.363s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/msg/_object_position.py
+[12.399s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/msg/_object_position_s.c
+[12.399s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/msg/__init__.py
+[12.400s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.402s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.403s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.404s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.405s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.407s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages/learn_interface/learn_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.407s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__python.so
+[12.408s] -- Set runtime path of "/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/liblearn_interface__python.so" to ""
+[12.409s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInts.idl
+[12.410s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition.idl
+[12.410s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/msg/ObjectPosition.idl
+[12.410s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInts.srv
+[12.411s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInts_Request.msg
+[12.411s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/AddTwoInts_Response.msg
+[12.411s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition.srv
+[12.412s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition_Request.msg
+[12.412s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/srv/GetObjectPosition_Response.msg
+[12.413s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/msg/ObjectPosition.msg
+[12.413s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/package_run_dependencies/learn_interface
+[12.413s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/parent_prefix_path/learn_interface
+[12.414s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/ament_prefix_path.sh
+[12.414s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/ament_prefix_path.dsv
+[12.415s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/path.sh
+[12.415s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/environment/path.dsv
+[12.415s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.bash
+[12.416s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.sh
+[12.416s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.zsh
+[12.417s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/local_setup.dsv
+[12.417s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/package.dsv
+[12.417s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/ament_index/resource_index/packages/learn_interface
+[12.418s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_generator_cExport.cmake
+[12.418s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_generator_cExport-noconfig.cmake
+[12.418s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cExport.cmake
+[12.419s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.419s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cExport.cmake
+[12.420s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cExport-noconfig.cmake
+[12.420s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_generator_cppExport.cmake
+[12.420s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cppExport.cmake
+[12.421s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.421s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cppExport.cmake
+[12.421s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[12.421s] -- Installing: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/rosidl_cmake-extras.cmake
+[12.421s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.422s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[12.422s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_targets-extras.cmake
+[12.422s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.422s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.422s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.422s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interfaceConfig.cmake
+[12.423s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/cmake/learn_interfaceConfig-version.cmake
+[12.424s] -- Up-to-date: /home/ubuntu/Desktop/workspace/zhao/install/learn_interface/share/learn_interface/package.xml
+[12.427s] Invoked command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/workspace/zhao/build/learn_interface

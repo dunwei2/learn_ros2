@@ -1,0 +1,41 @@
+[4.328s] Invoking command in '/home/ubuntu/Desktop/workspace/zhao/src/learn_action': PYTHONPATH=/home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_action build --build-base /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build install --prefix /home/ubuntu/Desktop/workspace/zhao/install/learn_action --record /home/ubuntu/Desktop/workspace/zhao/build/learn_action/install.log --single-version-externally-managed
+[4.838s] running egg_info
+[4.839s] creating ../../build/learn_action/learn_action.egg-info
+[4.840s] writing ../../build/learn_action/learn_action.egg-info/PKG-INFO
+[4.842s] writing dependency_links to ../../build/learn_action/learn_action.egg-info/dependency_links.txt
+[4.842s] writing entry points to ../../build/learn_action/learn_action.egg-info/entry_points.txt
+[4.842s] writing requirements to ../../build/learn_action/learn_action.egg-info/requires.txt
+[4.843s] writing top-level names to ../../build/learn_action/learn_action.egg-info/top_level.txt
+[4.889s] writing manifest file '../../build/learn_action/learn_action.egg-info/SOURCES.txt'
+[5.060s] reading manifest file '../../build/learn_action/learn_action.egg-info/SOURCES.txt'
+[5.063s] writing manifest file '../../build/learn_action/learn_action.egg-info/SOURCES.txt'
+[5.064s] running build
+[5.064s] running build_py
+[5.064s] creating /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build
+[5.065s] creating /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib
+[5.065s] creating /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action
+[5.065s] copying learn_action/__init__.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action
+[5.065s] copying learn_action/action_service.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action
+[5.066s] copying learn_action/action_client.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action
+[5.067s] running install
+[5.069s] running install_lib
+[5.072s] creating /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action
+[5.072s] copying /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action/__init__.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action
+[5.073s] copying /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action/action_service.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action
+[5.073s] copying /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build/lib/learn_action/action_client.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action
+[5.075s] byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action/__init__.py to __init__.cpython-38.pyc
+[5.079s] byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action/action_service.py to action_service.cpython-38.pyc
+[5.080s] byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action/action_client.py to action_client.cpython-38.pyc
+[5.081s] running install_data
+[5.083s] creating /home/ubuntu/Desktop/workspace/zhao/install/learn_action/share/ament_index
+[5.083s] creating /home/ubuntu/Desktop/workspace/zhao/install/learn_action/share/ament_index/resource_index
+[5.084s] creating /home/ubuntu/Desktop/workspace/zhao/install/learn_action/share/ament_index/resource_index/packages
+[5.084s] copying resource/learn_action -> /home/ubuntu/Desktop/workspace/zhao/install/learn_action/share/ament_index/resource_index/packages
+[5.085s] copying package.xml -> /home/ubuntu/Desktop/workspace/zhao/install/learn_action/share/learn_action
+[5.085s] running install_egg_info
+[5.089s] Copying ../../build/learn_action/learn_action.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages/learn_action-0.0.0-py3.8.egg-info
+[5.092s] running install_scripts
+[5.131s] Installing action_client script to /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/learn_action
+[5.132s] Installing action_server script to /home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/learn_action
+[5.133s] writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_action/install.log'
+[5.233s] Invoked command in '/home/ubuntu/Desktop/workspace/zhao/src/learn_action' returned '0': PYTHONPATH=/home/ubuntu/Desktop/workspace/zhao/install/learn_action/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_action build --build-base /home/ubuntu/Desktop/workspace/zhao/build/learn_action/build install --prefix /home/ubuntu/Desktop/workspace/zhao/install/learn_action --record /home/ubuntu/Desktop/workspace/zhao/build/learn_action/install.log --single-version-externally-managed

@@ -1,0 +1,57 @@
+[1.898s] Invoking command in '/home/ubuntu/Desktop/workspace/dev_ws1/src/ros2_21_tutorials/learning_topic': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface LD_LIBRARY_PATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build install --prefix /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic --record /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/install.log --single-version-externally-managed
+[2.311s] running egg_info
+[2.311s] creating ../../../build/learning_topic/learning_topic.egg-info
+[2.312s] writing ../../../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[2.312s] writing dependency_links to ../../../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[2.313s] writing entry points to ../../../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[2.313s] writing requirements to ../../../build/learning_topic/learning_topic.egg-info/requires.txt
+[2.313s] writing top-level names to ../../../build/learning_topic/learning_topic.egg-info/top_level.txt
+[2.316s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[2.396s] reading manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[2.398s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[2.398s] running build
+[2.398s] running build_py
+[2.398s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build
+[2.399s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib
+[2.399s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.399s] copying learning_topic/__init__.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.399s] copying learning_topic/interface_object_pub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.399s] copying learning_topic/interface_object_sub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.400s] copying learning_topic/topic_helloworld_pub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.400s] copying learning_topic/topic_helloworld_sub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.400s] copying learning_topic/topic_webcam_pub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.400s] copying learning_topic/topic_webcam_sub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic
+[2.401s] running install
+[2.403s] running install_lib
+[2.404s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.405s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/__init__.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.405s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/interface_object_pub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.405s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/interface_object_sub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.406s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/topic_helloworld_pub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.406s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/topic_helloworld_sub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.406s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/topic_webcam_pub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.406s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build/lib/learning_topic/topic_webcam_sub.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic
+[2.407s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/__init__.py to __init__.cpython-38.pyc
+[2.410s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/interface_object_pub.py to interface_object_pub.cpython-38.pyc
+[2.412s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/interface_object_sub.py to interface_object_sub.cpython-38.pyc
+[2.413s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/topic_helloworld_pub.py to topic_helloworld_pub.cpython-38.pyc
+[2.414s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/topic_helloworld_sub.py to topic_helloworld_sub.cpython-38.pyc
+[2.415s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/topic_webcam_pub.py to topic_webcam_pub.cpython-38.pyc
+[2.416s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-38.pyc
+[2.417s] running install_data
+[2.418s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/share/ament_index
+[2.418s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/share/ament_index/resource_index
+[2.418s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/share/ament_index/resource_index/packages
+[2.418s] copying resource/learning_topic -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/share/ament_index/resource_index/packages
+[2.419s] copying package.xml -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/share/learning_topic
+[2.419s] running install_egg_info
+[2.422s] Copying ../../../build/learning_topic/learning_topic.egg-info to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages/learning_topic-0.0.0-py3.8.egg-info
+[2.424s] running install_scripts
+[2.461s] Installing interface_object_pub script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/learning_topic
+[2.462s] Installing interface_object_sub script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/learning_topic
+[2.462s] Installing topic_helloworld_pub script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/learning_topic
+[2.462s] Installing topic_helloworld_sub script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/learning_topic
+[2.463s] Installing topic_webcam_pub script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/learning_topic
+[2.463s] Installing topic_webcam_sub script to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/learning_topic
+[2.465s] writing list of installed files to '/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/install.log'
+[2.527s] Invoked command in '/home/ubuntu/Desktop/workspace/dev_ws1/src/ros2_21_tutorials/learning_topic' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface LD_LIBRARY_PATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/build install --prefix /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_topic --record /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_topic/install.log --single-version-externally-managed

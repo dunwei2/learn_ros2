@@ -1,0 +1,22 @@
+[1.993s] Invoking command in '/home/ubuntu/Desktop/workspace/zhao/src/learn_service': PYTHONPATH=/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_service build --build-base /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build install --prefix /home/ubuntu/Desktop/workspace/zhao/install/learn_service --record /home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log --single-version-externally-managed
+[2.785s] running egg_info
+[2.785s] writing ../../build/learn_service/learn_service.egg-info/PKG-INFO
+[2.785s] writing dependency_links to ../../build/learn_service/learn_service.egg-info/dependency_links.txt
+[2.786s] writing entry points to ../../build/learn_service/learn_service.egg-info/entry_points.txt
+[2.786s] writing requirements to ../../build/learn_service/learn_service.egg-info/requires.txt
+[2.786s] writing top-level names to ../../build/learn_service/learn_service.egg-info/top_level.txt
+[2.889s] reading manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+[2.891s] writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+[2.891s] running build
+[2.891s] running build_py
+[2.892s] running install
+[2.893s] running install_lib
+[2.897s] running install_data
+[2.898s] running install_egg_info
+[2.906s] removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info' (and everything under it)
+[2.908s] Copying ../../build/learn_service/learn_service.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info
+[2.911s] running install_scripts
+[2.956s] Installing service_first script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service
+[2.957s] Installing service_img script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service
+[2.957s] writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log'
+[3.029s] Invoked command in '/home/ubuntu/Desktop/workspace/zhao/src/learn_service' returned '0': PYTHONPATH=/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_service build --build-base /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build install --prefix /home/ubuntu/Desktop/workspace/zhao/install/learn_service --record /home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log --single-version-externally-managed

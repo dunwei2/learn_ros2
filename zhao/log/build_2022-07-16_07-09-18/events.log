@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.002858] (learn_interface) JobQueued: {'identifier': 'learn_interface', 'dependencies': OrderedDict()}
+[0.003079] (learn_service) JobQueued: {'identifier': 'learn_service', 'dependencies': OrderedDict()}
+[0.003209] (learn_topic) JobQueued: {'identifier': 'learn_topic', 'dependencies': OrderedDict()}
+[0.003293] (learn_interface) JobStarted: {'identifier': 'learn_interface'}
+[0.015943] (learn_service) JobStarted: {'identifier': 'learn_service'}
+[0.029117] (learn_topic) JobStarted: {'identifier': 'learn_topic'}
+[0.047629] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'cmake'}
+[0.066606] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'build'}
+[0.067667] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '0836e6faf905'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/workspace/zhao/install'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/workspace/zhao/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/home/ubuntu/Desktop/workspace/zhao/install/learn_interface:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'), ('PYTHONPATH', '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/opt/ros/foxy')]), 'shell': False}
+[0.099939] (-) TimerEvent: {}
+[0.200818] (-) TimerEvent: {}
+[0.301314] (-) TimerEvent: {}
+[0.401790] (-) TimerEvent: {}
+[0.502365] (-) TimerEvent: {}
+[0.603099] (-) TimerEvent: {}
+[0.703770] (-) TimerEvent: {}
+[0.804351] (-) TimerEvent: {}
+[0.905020] (-) TimerEvent: {}
+[1.005831] (-) TimerEvent: {}
+[1.054671] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.105955] (-) TimerEvent: {}
+[1.160523] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.160942] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.206065] (-) TimerEvent: {}
+[1.310400] (-) TimerEvent: {}
+[1.410949] (-) TimerEvent: {}
+[1.511523] (-) TimerEvent: {}
+[1.612074] (-) TimerEvent: {}
+[1.685665] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.712236] (-) TimerEvent: {}
+[1.726345] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.749212] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.812395] (-) TimerEvent: {}
+[1.912947] (-) TimerEvent: {}
+[2.013531] (-) TimerEvent: {}
+[2.114071] (-) TimerEvent: {}
+[2.214670] (-) TimerEvent: {}
+[2.315167] (-) TimerEvent: {}
+[2.415693] (-) TimerEvent: {}
+[2.516218] (-) TimerEvent: {}
+[2.616693] (-) TimerEvent: {}
+[2.706213] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.716814] (-) TimerEvent: {}
+[2.807893] (learn_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[2.808366] (learn_interface) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'srv/AddTwoInt32s.srv' doesn't\n"}
+[2.808546] (learn_interface) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[2.808714] (learn_interface) StderrLine: {'line': b"  '/home/ubuntu/Desktop/workspace/zhao/src/learn_interface'\n"}
+[2.808917] (learn_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.809076] (learn_interface) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[2.809232] (learn_interface) StderrLine: {'line': b'\n'}
+[2.809395] (learn_interface) StderrLine: {'line': b'\n'}
+[2.812698] (learn_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.814060] (learn_interface) StdoutLine: {'line': b'See also "/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/CMakeFiles/CMakeOutput.log".\n'}
+[2.816930] (-) TimerEvent: {}
+[2.825338] (learn_interface) StderrLine: {'line': b'make: *** [Makefile:988: cmake_check_build_system] Error 1\n'}
+[2.827996] (learn_interface) CommandEnded: {'returncode': 2}
+[2.917209] (-) TimerEvent: {}
+[2.969053] (learn_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_service', 'build', '--build-base', '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/build', 'install', '--prefix', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', '--record', '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/src/learn_service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '0836e6faf905', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/workspace/zhao/install', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/workspace/zhao/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/home/ubuntu/Desktop/workspace/zhao/install/learn_interface:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/Desktop/workspace/zhao/build/learn_service', 'PYTHONPATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface'}, 'shell': False}
+[2.992426] (learn_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_topic', 'build', '--build-base', '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build', 'install', '--prefix', '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic', '--record', '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/src/learn_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '0836e6faf905', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/workspace/zhao/install', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/workspace/zhao/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic:/home/ubuntu/Desktop/workspace/zhao/install/learn_service:/home/ubuntu/Desktop/workspace/zhao/install/learn_interface:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic', 'PYTHONPATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:/home/ubuntu/Desktop/workspace/zhao/install/learn_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_interface'}, 'shell': False}
+[3.017376] (-) TimerEvent: {}
+[3.037307] (learn_interface) JobEnded: {'identifier': 'learn_interface', 'rc': 2}
+[3.117458] (-) TimerEvent: {}
+[3.217875] (-) TimerEvent: {}
+[3.318264] (-) TimerEvent: {}
+[3.332709] (learn_service) StdoutLine: {'line': b'running egg_info\n'}
+[3.333851] (learn_service) StdoutLine: {'line': b'writing ../../build/learn_service/learn_service.egg-info/PKG-INFO\n'}
+[3.334255] (learn_service) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_service/learn_service.egg-info/dependency_links.txt\n'}
+[3.334581] (learn_service) StdoutLine: {'line': b'writing entry points to ../../build/learn_service/learn_service.egg-info/entry_points.txt\n'}
+[3.334940] (learn_service) StdoutLine: {'line': b'writing requirements to ../../build/learn_service/learn_service.egg-info/requires.txt\n'}
+[3.335100] (learn_service) StdoutLine: {'line': b'writing top-level names to ../../build/learn_service/learn_service.egg-info/top_level.txt\n'}
+[3.351846] (learn_topic) StdoutLine: {'line': b'running egg_info\n'}
+[3.352668] (learn_topic) StdoutLine: {'line': b'writing ../../build/learn_topic/learn_topic.egg-info/PKG-INFO\n'}
+[3.353035] (learn_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_topic/learn_topic.egg-info/dependency_links.txt\n'}
+[3.353292] (learn_topic) StdoutLine: {'line': b'writing entry points to ../../build/learn_topic/learn_topic.egg-info/entry_points.txt\n'}
+[3.353551] (learn_topic) StdoutLine: {'line': b'writing requirements to ../../build/learn_topic/learn_topic.egg-info/requires.txt\n'}
+[3.353698] (learn_topic) StdoutLine: {'line': b'writing top-level names to ../../build/learn_topic/learn_topic.egg-info/top_level.txt\n'}
+[3.418370] (-) TimerEvent: {}
+[3.463056] (learn_topic) StdoutLine: {'line': b"reading manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'\n"}
+[3.464525] (learn_topic) StdoutLine: {'line': b"writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'\n"}
+[3.464907] (learn_topic) StdoutLine: {'line': b'running build\n'}
+[3.465061] (learn_topic) StdoutLine: {'line': b'running build_py\n'}
+[3.465472] (learn_topic) StdoutLine: {'line': b'running install\n'}
+[3.465750] (learn_service) StdoutLine: {'line': b"reading manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'\n"}
+[3.466762] (learn_topic) StdoutLine: {'line': b'running install_lib\n'}
+[3.467322] (learn_service) StdoutLine: {'line': b"writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'\n"}
+[3.467616] (learn_service) StdoutLine: {'line': b'running build\n'}
+[3.467832] (learn_service) StdoutLine: {'line': b'running build_py\n'}
+[3.468074] (learn_service) StdoutLine: {'line': b'copying learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service\n'}
+[3.468554] (learn_service) StdoutLine: {'line': b'running install\n'}
+[3.469089] (learn_topic) StdoutLine: {'line': b'running install_data\n'}
+[3.469850] (learn_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.470088] (learn_service) StdoutLine: {'line': b'running install_lib\n'}
+[3.471612] (learn_service) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service\n'}
+[3.472311] (learn_topic) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.472831] (learn_service) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_server.py to service_first_server.cpython-38.pyc\n'}
+[3.473797] (learn_topic) StdoutLine: {'line': b'Copying ../../build/learn_topic/learn_topic.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info\n'}
+[3.474905] (learn_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[3.475697] (learn_service) StdoutLine: {'line': b'running install_data\n'}
+[3.476627] (learn_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.479314] (learn_service) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.480581] (learn_service) StdoutLine: {'line': b'Copying ../../build/learn_service/learn_service.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info\n'}
+[3.482670] (learn_service) StdoutLine: {'line': b'running install_scripts\n'}
+[3.503597] (learn_topic) StdoutLine: {'line': b'Installing topic_cam_pub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[3.504424] (learn_topic) StdoutLine: {'line': b'Installing topic_cam_sub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[3.504749] (learn_topic) StdoutLine: {'line': b'Installing topic_hello script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[3.505135] (learn_topic) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log'\n"}
+[3.512844] (learn_service) StdoutLine: {'line': b'Installing service_first script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service\n'}
+[3.513582] (learn_service) StdoutLine: {'line': b'Installing service_img script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service\n'}
+[3.514002] (learn_service) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log'\n"}
+[3.518552] (-) TimerEvent: {}
+[3.563372] (learn_topic) JobEnded: {'identifier': 'learn_topic', 'rc': 'SIGINT'}
+[3.573040] (learn_service) JobEnded: {'identifier': 'learn_service', 'rc': 'SIGINT'}
+[3.583997] (-) EventReactorShutdown: {}

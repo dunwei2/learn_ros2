@@ -1,0 +1,5 @@
+[console_scripts]
+topic_cam_pub = learn_topic.topic_webcam_pub:main
+topic_cam_sub = learn_topic.topic_webcam_sub:main
+topic_hello = learn_topic.topic_hello:main
+

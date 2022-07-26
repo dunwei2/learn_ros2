@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000930] (learn_interface) JobQueued: {'identifier': 'learn_interface', 'dependencies': OrderedDict()}
+[0.001060] (learn_service) JobQueued: {'identifier': 'learn_service', 'dependencies': OrderedDict()}
+[0.001126] (learn_topic) JobQueued: {'identifier': 'learn_topic', 'dependencies': OrderedDict()}
+[0.001212] (learn_interface) JobStarted: {'identifier': 'learn_interface'}
+[0.013784] (learn_service) JobStarted: {'identifier': 'learn_service'}
+[0.025900] (learn_topic) JobStarted: {'identifier': 'learn_topic'}
+[0.043465] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'cmake'}
+[0.043942] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/workspace/zhao/src/learn_interface', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '0836e6faf905'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099599] (-) TimerEvent: {}
+[0.200199] (-) TimerEvent: {}
+[0.300946] (-) TimerEvent: {}
+[0.401413] (-) TimerEvent: {}
+[0.502093] (-) TimerEvent: {}
+[0.602790] (-) TimerEvent: {}
+[0.703535] (-) TimerEvent: {}
+[0.804026] (-) TimerEvent: {}
+[0.904534] (-) TimerEvent: {}
+[1.005003] (-) TimerEvent: {}
+[1.105393] (-) TimerEvent: {}
+[1.205794] (-) TimerEvent: {}
+[1.306203] (-) TimerEvent: {}
+[1.406670] (-) TimerEvent: {}
+[1.507092] (-) TimerEvent: {}
+[1.607498] (-) TimerEvent: {}
+[1.707904] (-) TimerEvent: {}
+[1.808406] (-) TimerEvent: {}
+[1.908843] (-) TimerEvent: {}
+[2.009324] (-) TimerEvent: {}
+[2.110507] (-) TimerEvent: {}
+[2.211320] (-) TimerEvent: {}
+[2.311790] (-) TimerEvent: {}
+[2.412313] (-) TimerEvent: {}
+[2.512787] (-) TimerEvent: {}
+[2.613288] (-) TimerEvent: {}
+[2.647231] (learn_service) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_service', 'build', '--build-base', '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/build', 'install', '--prefix', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', '--record', '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/src/learn_service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '0836e6faf905', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/Desktop/workspace/zhao/build/learn_service', 'PYTHONPATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.654651] (learn_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_topic', 'build', '--build-base', '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build', 'install', '--prefix', '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic', '--record', '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/src/learn_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': '0836e6faf905', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/workspace/zhao/install/learn_service', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic', 'PYTHONPATH': '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.713380] (-) TimerEvent: {}
+[2.802167] (learn_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.813483] (-) TimerEvent: {}
+[2.913896] (-) TimerEvent: {}
+[2.979470] (learn_service) StdoutLine: {'line': b'running egg_info\n'}
+[2.980618] (learn_service) StdoutLine: {'line': b'writing ../../build/learn_service/learn_service.egg-info/PKG-INFO\n'}
+[2.980981] (learn_service) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_service/learn_service.egg-info/dependency_links.txt\n'}
+[2.981211] (learn_service) StdoutLine: {'line': b'writing entry points to ../../build/learn_service/learn_service.egg-info/entry_points.txt\n'}
+[2.981419] (learn_service) StdoutLine: {'line': b'writing requirements to ../../build/learn_service/learn_service.egg-info/requires.txt\n'}
+[2.981634] (learn_service) StdoutLine: {'line': b'writing top-level names to ../../build/learn_service/learn_service.egg-info/top_level.txt\n'}
+[2.996632] (learn_topic) StdoutLine: {'line': b'running egg_info\n'}
+[2.997603] (learn_topic) StdoutLine: {'line': b'writing ../../build/learn_topic/learn_topic.egg-info/PKG-INFO\n'}
+[2.998359] (learn_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_topic/learn_topic.egg-info/dependency_links.txt\n'}
+[2.998903] (learn_topic) StdoutLine: {'line': b'writing entry points to ../../build/learn_topic/learn_topic.egg-info/entry_points.txt\n'}
+[2.999356] (learn_topic) StdoutLine: {'line': b'writing requirements to ../../build/learn_topic/learn_topic.egg-info/requires.txt\n'}
+[2.999676] (learn_topic) StdoutLine: {'line': b'writing top-level names to ../../build/learn_topic/learn_topic.egg-info/top_level.txt\n'}
+[3.014208] (-) TimerEvent: {}
+[3.114857] (-) TimerEvent: {}
+[3.215276] (-) TimerEvent: {}
+[3.253863] (learn_topic) StdoutLine: {'line': b"reading manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'\n"}
+[3.254461] (learn_service) StdoutLine: {'line': b"reading manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'\n"}
+[3.255199] (learn_topic) StdoutLine: {'line': b"writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'\n"}
+[3.255491] (learn_topic) StdoutLine: {'line': b'running build\n'}
+[3.255632] (learn_topic) StdoutLine: {'line': b'running build_py\n'}
+[3.255912] (learn_topic) StdoutLine: {'line': b'running install\n'}
+[3.256960] (learn_topic) StdoutLine: {'line': b'running install_lib\n'}
+[3.257306] (learn_service) StdoutLine: {'line': b"writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'\n"}
+[3.257675] (learn_service) StdoutLine: {'line': b'running build\n'}
+[3.257921] (learn_service) StdoutLine: {'line': b'running build_py\n'}
+[3.258637] (learn_service) StdoutLine: {'line': b'copying learn_service/service_first_client.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service\n'}
+[3.259183] (learn_topic) StdoutLine: {'line': b'running install_data\n'}
+[3.259542] (learn_service) StdoutLine: {'line': b'copying learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service\n'}
+[3.259887] (learn_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.260697] (learn_service) StdoutLine: {'line': b'running install\n'}
+[3.262244] (learn_service) StdoutLine: {'line': b'running install_lib\n'}
+[3.262910] (learn_topic) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.264926] (learn_service) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_client.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service\n'}
+[3.265916] (learn_topic) StdoutLine: {'line': b'Copying ../../build/learn_topic/learn_topic.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info\n'}
+[3.266121] (learn_service) StdoutLine: {'line': b'copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service\n'}
+[3.266929] (learn_service) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_client.py to service_first_client.cpython-38.pyc\n'}
+[3.268312] (learn_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[3.269857] (learn_service) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_server.py to service_first_server.cpython-38.pyc\n'}
+[3.270413] (learn_service) StdoutLine: {'line': b'running install_data\n'}
+[3.271310] (learn_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.273640] (learn_service) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.274803] (learn_service) StdoutLine: {'line': b'Copying ../../build/learn_service/learn_service.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info\n'}
+[3.276906] (learn_service) StdoutLine: {'line': b'running install_scripts\n'}
+[3.297468] (learn_topic) StdoutLine: {'line': b'Installing topic_cam_pub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[3.299199] (learn_topic) StdoutLine: {'line': b'Installing topic_cam_sub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[3.300261] (learn_topic) StdoutLine: {'line': b'Installing topic_hello script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic\n'}
+[3.301302] (learn_topic) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log'\n"}
+[3.304871] (learn_service) StdoutLine: {'line': b'Installing service_first script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service\n'}
+[3.305441] (learn_service) StdoutLine: {'line': b'Installing service_img script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service\n'}
+[3.305785] (learn_service) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log'\n"}
+[3.315558] (-) TimerEvent: {}
+[3.369170] (learn_topic) CommandEnded: {'returncode': 0}
+[3.391739] (learn_topic) JobEnded: {'identifier': 'learn_topic', 'rc': 0}
+[3.394559] (learn_service) CommandEnded: {'returncode': 0}
+[3.403366] (learn_service) JobEnded: {'identifier': 'learn_service', 'rc': 0}
+[3.415884] (-) TimerEvent: {}
+[3.516555] (-) TimerEvent: {}
+[3.571605] (learn_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.616846] (-) TimerEvent: {}
+[3.717289] (-) TimerEvent: {}
+[3.722834] (learn_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.817566] (-) TimerEvent: {}
+[3.838244] (learn_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.840752] (learn_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.917692] (-) TimerEvent: {}
+[4.018339] (-) TimerEvent: {}
+[4.020676] (learn_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.040726] (learn_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.052700] (learn_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.066612] (learn_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.118625] (-) TimerEvent: {}
+[4.190907] (learn_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.192537] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.218663] (-) TimerEvent: {}
+[4.319069] (-) TimerEvent: {}
+[4.331509] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.352014] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.352910] (learn_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.419186] (-) TimerEvent: {}
+[4.467811] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.519278] (-) TimerEvent: {}
+[4.533700] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.534090] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.619374] (-) TimerEvent: {}
+[4.719748] (-) TimerEvent: {}
+[4.820131] (-) TimerEvent: {}
+[4.899260] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.920283] (-) TimerEvent: {}
+[4.925773] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.945800] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.020659] (-) TimerEvent: {}
+[5.121144] (-) TimerEvent: {}
+[5.221652] (-) TimerEvent: {}
+[5.322238] (-) TimerEvent: {}
+[5.422656] (-) TimerEvent: {}
+[5.523270] (-) TimerEvent: {}
+[5.623925] (-) TimerEvent: {}
+[5.724521] (-) TimerEvent: {}
+[5.824939] (-) TimerEvent: {}
+[5.826867] (learn_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.925195] (-) TimerEvent: {}
+[5.946235] (learn_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.025410] (-) TimerEvent: {}
+[6.060142] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.125535] (-) TimerEvent: {}
+[6.138296] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.225799] (-) TimerEvent: {}
+[6.324013] (learn_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[6.324350] (learn_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[6.324487] (learn_interface) StderrLine: {'line': b'  learn_interface --arguments-file\n'}
+[6.325818] (-) TimerEvent: {}
+[6.326202] (learn_interface) StderrLine: {'line': b'  /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter__arguments__learn_interface.json\n'}
+[6.326398] (learn_interface) StderrLine: {'line': b'  --output-dir\n'}
+[6.326531] (learn_interface) StderrLine: {'line': b'  /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface\n'}
+[6.326679] (learn_interface) StderrLine: {'line': b'  --output-file\n'}
+[6.326814] (learn_interface) StderrLine: {'line': b'  /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface.idls)\n'}
+[6.326942] (learn_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[6.327070] (learn_interface) StderrLine: {'line': b'\n'}
+[6.327199] (learn_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[6.327336] (learn_interface) StderrLine: {'line': b'\n'}
+[6.327465] (learn_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[6.327788] (learn_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[6.328063] (learn_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[6.328180] (learn_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[6.328294] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[6.328407] (learn_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[6.328520] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[6.328641] (learn_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[6.328753] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[6.328867] (learn_interface) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[6.328979] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[6.329093] (learn_interface) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[6.329205] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[6.329317] (learn_interface) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[6.329428] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[6.329551] (learn_interface) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[6.329683] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[6.329811] (learn_interface) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[6.329937] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[6.330071] (learn_interface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[6.330198] (learn_interface) StderrLine: {'line': b'\n'}
+[6.330324] (learn_interface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'addTwoInts_Request' is an\n"}
+[6.330455] (learn_interface) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[6.330601] (learn_interface) StderrLine: {'line': b'\n'}
+[6.330734] (learn_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.330864] (learn_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[6.330996] (learn_interface) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[6.331125] (learn_interface) StderrLine: {'line': b'\n'}
+[6.331256] (learn_interface) StderrLine: {'line': b'\n'}
+[6.331387] (learn_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.331533] (learn_interface) StdoutLine: {'line': b'See also "/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/CMakeFiles/CMakeOutput.log".\n'}
+[6.339002] (learn_interface) CommandEnded: {'returncode': 1}
+[6.340144] (learn_interface) JobEnded: {'identifier': 'learn_interface', 'rc': 1}
+[6.350744] (-) EventReactorShutdown: {}

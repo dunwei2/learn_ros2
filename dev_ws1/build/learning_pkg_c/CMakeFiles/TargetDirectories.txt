@@ -1,0 +1,9 @@
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/install/strip.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/install/local.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/test.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/install.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/list_install_components.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/learning_pkg_c_uninstall.dir
+/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_c/CMakeFiles/uninstall.dir

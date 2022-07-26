@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/learn_topic/learn_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/learn_topic/learn_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/learn_topic/learn_topic.egg-info/entry_points.txt
+writing requirements to ../../build/learn_topic/learn_topic.egg-info/requires.txt
+writing top-level names to ../../build/learn_topic/learn_topic.egg-info/top_level.txt
+reading manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+copying learn_topic/topic_webcam_sub.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic
+running install
+running install_lib
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic/topic_webcam_sub.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/learn_topic/learn_topic.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info
+running install_scripts
+Installing topic_cam_pub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic
+Installing topic_cam_sub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic
+Installing topic_hello script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic
+writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log'

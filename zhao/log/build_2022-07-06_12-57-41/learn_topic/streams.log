@@ -1,0 +1,26 @@
+[0.918s] Invoking command in '/home/ubuntu/Desktop/workspace/zhao/src/learn_topic': PYTHONPATH=/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_topic build --build-base /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build install --prefix /home/ubuntu/Desktop/workspace/zhao/install/learn_topic --record /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log --single-version-externally-managed
+[1.216s] running egg_info
+[1.217s] writing ../../build/learn_topic/learn_topic.egg-info/PKG-INFO
+[1.218s] writing dependency_links to ../../build/learn_topic/learn_topic.egg-info/dependency_links.txt
+[1.218s] writing entry points to ../../build/learn_topic/learn_topic.egg-info/entry_points.txt
+[1.218s] writing requirements to ../../build/learn_topic/learn_topic.egg-info/requires.txt
+[1.219s] writing top-level names to ../../build/learn_topic/learn_topic.egg-info/top_level.txt
+[1.279s] reading manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+[1.279s] writing manifest file '../../build/learn_topic/learn_topic.egg-info/SOURCES.txt'
+[1.279s] running build
+[1.279s] running build_py
+[1.280s] copying learn_topic/topic_webcam_sub.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic
+[1.281s] running install
+[1.282s] running install_lib
+[1.285s] copying /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build/lib/learn_topic/topic_webcam_sub.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic
+[1.287s] byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-38.pyc
+[1.290s] running install_data
+[1.291s] running install_egg_info
+[1.294s] removing '/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info' (and everything under it)
+[1.295s] Copying ../../build/learn_topic/learn_topic.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages/learn_topic-0.0.0-py3.8.egg-info
+[1.297s] running install_scripts
+[1.323s] Installing topic_cam_pub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic
+[1.323s] Installing topic_cam_sub script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic
+[1.324s] Installing topic_hello script to /home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/learn_topic
+[1.324s] writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log'
+[1.371s] Invoked command in '/home/ubuntu/Desktop/workspace/zhao/src/learn_topic' returned '0': PYTHONPATH=/home/ubuntu/Desktop/workspace/zhao/install/learn_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_topic build --build-base /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/build install --prefix /home/ubuntu/Desktop/workspace/zhao/install/learn_topic --record /home/ubuntu/Desktop/workspace/zhao/build/learn_topic/install.log --single-version-externally-managed

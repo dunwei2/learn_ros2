@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000811] (learn_interface) JobQueued: {'identifier': 'learn_interface', 'dependencies': OrderedDict()}
+[0.001281] (learn_service) JobQueued: {'identifier': 'learn_service', 'dependencies': OrderedDict()}
+[0.002441] (learn_topic) JobQueued: {'identifier': 'learn_topic', 'dependencies': OrderedDict()}
+[0.002524] (learn_interface) JobStarted: {'identifier': 'learn_interface'}
+[0.013745] (learn_service) JobStarted: {'identifier': 'learn_service'}
+[0.026772] (learn_topic) JobStarted: {'identifier': 'learn_topic'}
+[0.045342] (learn_interface) JobProgress: {'identifier': 'learn_interface', 'progress': 'cmake'}
+[0.046268] (learn_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Desktop/workspace/zhao/src/learn_interface', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/workspace/zhao/install/learn_interface'], 'cwd': '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', '0836e6faf905'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/workspace/zhao/install/learn_service'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099664] (-) TimerEvent: {}
+[0.200229] (-) TimerEvent: {}
+[0.300653] (-) TimerEvent: {}
+[0.401170] (-) TimerEvent: {}
+[0.501982] (-) TimerEvent: {}
+[0.510996] (learn_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.511409] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.511642] (learn_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.511806] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.511982] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.512145] (learn_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.602207] (-) TimerEvent: {}
+[0.703027] (-) TimerEvent: {}
+[0.726965] (learn_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803133] (-) TimerEvent: {}
+[0.822361] (learn_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.903272] (-) TimerEvent: {}
+[0.933625] (learn_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.934085] (learn_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.934254] (learn_interface) StderrLine: {'line': b'  learn_interface --arguments-file\n'}
+[0.934400] (learn_interface) StderrLine: {'line': b'  /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter__arguments__learn_interface.json\n'}
+[0.934545] (learn_interface) StderrLine: {'line': b'  --output-dir\n'}
+[0.934689] (learn_interface) StderrLine: {'line': b'  /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface\n'}
+[0.934847] (learn_interface) StderrLine: {'line': b'  --output-file\n'}
+[0.934995] (learn_interface) StderrLine: {'line': b'  /home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface.idls)\n'}
+[0.935148] (learn_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.935293] (learn_interface) StderrLine: {'line': b'\n'}
+[0.935436] (learn_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.935581] (learn_interface) StderrLine: {'line': b'\n'}
+[0.935727] (learn_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.935881] (learn_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.936029] (learn_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.936175] (learn_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.936316] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.936456] (learn_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.936600] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.936744] (learn_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.936896] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.937041] (learn_interface) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.937194] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.937340] (learn_interface) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.937482] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[0.937626] (learn_interface) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[0.937768] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[0.937933] (learn_interface) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.938857] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[0.939136] (learn_interface) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.939406] (learn_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[0.941688] (learn_interface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.942029] (learn_interface) StderrLine: {'line': b'\n'}
+[0.942301] (learn_interface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'addTwoInt32s_Request' is an\n"}
+[0.942575] (learn_interface) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.942863] (learn_interface) StderrLine: {'line': b'\n'}
+[0.943134] (learn_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.943461] (learn_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.943805] (learn_interface) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[0.944178] (learn_interface) StderrLine: {'line': b'\n'}
+[0.944447] (learn_interface) StderrLine: {'line': b'\n'}
+[0.944717] (learn_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.945084] (learn_interface) StdoutLine: {'line': b'See also "/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/CMakeFiles/CMakeOutput.log".\n'}
+[0.956559] (learn_interface) CommandEnded: {'returncode': 1}
+[0.957792] (learn_interface) JobEnded: {'identifier': 'learn_interface', 'rc': 1}
+[0.968008] (learn_service) JobEnded: {'identifier': 'learn_service', 'rc': 'SIGINT'}
+[0.968946] (learn_topic) JobEnded: {'identifier': 'learn_topic', 'rc': 'SIGINT'}
+[0.979107] (-) EventReactorShutdown: {}

@@ -1,0 +1,52 @@
+running egg_info
+creating ../../build/learn_service/learn_service.egg-info
+writing ../../build/learn_service/learn_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/learn_service/learn_service.egg-info/dependency_links.txt
+writing entry points to ../../build/learn_service/learn_service.egg-info/entry_points.txt
+writing requirements to ../../build/learn_service/learn_service.egg-info/requires.txt
+writing top-level names to ../../build/learn_service/learn_service.egg-info/top_level.txt
+writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+reading manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build
+creating /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib
+creating /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service
+copying learn_service/__init__.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service
+copying learn_service/service_first_client.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service
+copying learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service
+copying learn_service/service_img_servicer.py -> /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service
+running install
+running install_lib
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/__init__.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_client.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_first_server.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service
+copying /home/ubuntu/Desktop/workspace/zhao/build/learn_service/build/lib/learn_service/service_img_servicer.py -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_client.py to service_first_client.cpython-38.pyc
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_server.py to service_first_server.cpython-38.pyc
+  File "/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_client.py", line 9
+    from learin_
+               ^
+SyntaxError: invalid syntax
+
+  File "/home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_first_server.py", line 6
+    from learning_interface
+                          ^
+SyntaxError: invalid syntax
+
+byte-compiling /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service/service_img_servicer.py to service_img_servicer.cpython-38.pyc
+running install_data
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_service/share/ament_index
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_service/share/ament_index/resource_index
+creating /home/ubuntu/Desktop/workspace/zhao/install/learn_service/share/ament_index/resource_index/packages
+copying resource/learn_service -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/Desktop/workspace/zhao/install/learn_service/share/learn_service
+running install_egg_info
+Copying ../../build/learn_service/learn_service.egg-info to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/python3.8/site-packages/learn_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing service_first script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service
+Installing service_img script to /home/ubuntu/Desktop/workspace/zhao/install/learn_service/lib/learn_service
+writing list of installed files to '/home/ubuntu/Desktop/workspace/zhao/build/learn_service/install.log'

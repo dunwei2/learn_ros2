@@ -1,0 +1,4 @@
+/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface:srv/AddTwoInts.idl
+/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface:srv/GetObjectPosition.idl
+/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface:msg/ObjectPosition.idl
+/home/ubuntu/Desktop/workspace/zhao/build/learn_interface/rosidl_adapter/learn_interface:action/MoveCircle.idl

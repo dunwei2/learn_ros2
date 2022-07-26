@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/workspace/zhao/build/learn_interface -- -j4 -l4
+Invoked command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/workspace/zhao/build/learn_interface -- -j4 -l4
+Invoking command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/workspace/zhao/build/learn_interface
+Invoked command in '/home/ubuntu/Desktop/workspace/zhao/build/learn_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/workspace/zhao/build/learn_interface

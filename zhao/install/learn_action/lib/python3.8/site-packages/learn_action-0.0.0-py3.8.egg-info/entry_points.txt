@@ -1,0 +1,4 @@
+[console_scripts]
+action_client = learn_action.action_client:main
+action_server = learn_action.action_service:main
+

@@ -1,0 +1,33 @@
+[1.232s] Invoking command in '/home/ubuntu/Desktop/workspace/dev_ws1/src/ros2_21_tutorials/learning_pkg_python': PYTHONPATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build install --prefix /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python --record /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/install.log --single-version-externally-managed
+[1.620s] running egg_info
+[1.622s] creating ../../../build/learning_pkg_python/learning_pkg_python.egg-info
+[1.622s] writing ../../../build/learning_pkg_python/learning_pkg_python.egg-info/PKG-INFO
+[1.623s] writing dependency_links to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/dependency_links.txt
+[1.624s] writing entry points to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/entry_points.txt
+[1.624s] writing requirements to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/requires.txt
+[1.625s] writing top-level names to ../../../build/learning_pkg_python/learning_pkg_python.egg-info/top_level.txt
+[1.628s] writing manifest file '../../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[1.703s] reading manifest file '../../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[1.706s] writing manifest file '../../../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.707s] running build_py
+[1.707s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build
+[1.708s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build/lib
+[1.708s] creating /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build/lib/learning_pkg_python
+[1.709s] copying learning_pkg_python/__init__.py -> /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build/lib/learning_pkg_python
+[1.710s] running install
+[1.712s] running install_lib
+[1.715s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/lib/python3.8/site-packages/learning_pkg_python
+[1.715s] copying /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build/lib/learning_pkg_python/__init__.py -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/lib/python3.8/site-packages/learning_pkg_python
+[1.717s] byte-compiling /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/lib/python3.8/site-packages/learning_pkg_python/__init__.py to __init__.cpython-38.pyc
+[1.721s] running install_data
+[1.722s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/share/ament_index
+[1.723s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/share/ament_index/resource_index
+[1.723s] creating /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/share/ament_index/resource_index/packages
+[1.724s] copying resource/learning_pkg_python -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/share/ament_index/resource_index/packages
+[1.724s] copying package.xml -> /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/share/learning_pkg_python
+[1.725s] running install_egg_info
+[1.729s] Copying ../../../build/learning_pkg_python/learning_pkg_python.egg-info to /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/lib/python3.8/site-packages/learning_pkg_python-0.0.0-py3.8.egg-info
+[1.732s] running install_scripts
+[1.765s] writing list of installed files to '/home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/install.log'
+[1.843s] Invoked command in '/home/ubuntu/Desktop/workspace/dev_ws1/src/ros2_21_tutorials/learning_pkg_python' returned '0': PYTHONPATH=/home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/build install --prefix /home/ubuntu/Desktop/workspace/dev_ws1/install/learning_pkg_python --record /home/ubuntu/Desktop/workspace/dev_ws1/build/learning_pkg_python/install.log --single-version-externally-managed
